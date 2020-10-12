@@ -1,0 +1,12 @@
+.login-alse {
+    margin-top : 80%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.login-alse span {
+    color: gray;
+    font-size: 13px;
+    margin-left: 5px;
+}

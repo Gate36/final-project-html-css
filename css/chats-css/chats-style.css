@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+@import "chats-headline.css";
+@import "chats-header.css";
+@import "chats-user.css";
+@import "chats-nav.css";
+
+body {
+    font-family: 'Rubik', sans-serif;
+    height: 120vh;
+}
+
+body div a {
+    color: #495057;
+}

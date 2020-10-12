@@ -1,0 +1,17 @@
+@import "cover-icon.css";
+@import "cover-loading.css";
+
+body {
+    background-color: white;
+
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.space {
+    height: 15%;
+}

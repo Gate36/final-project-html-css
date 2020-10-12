@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+@import "friends-headline.css";
+@import "friends-header.css";
+@import "friends-add.css";
+@import "friends-user.css";
+@import "friends-channel.css";
+@import "friends-nav.css";
+
+body {
+    font-family: 'Rubik', sans-serif;
+    height: 120vh;
+}
+
+body div a {
+    color: #495057;
+}

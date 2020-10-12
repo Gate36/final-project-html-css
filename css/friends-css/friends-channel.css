@@ -1,0 +1,20 @@
+.friends-channel {
+    margin: 5% 0%;
+    padding: 2%;
+    border-top: 1px solid rgba(180, 180, 180, 0.712);
+}
+
+.friends-channel__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.friends-channel__header span {
+    color: #808080;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.friends-channel__header i {
+    color: #808080;
+}
