@@ -1,0 +1,47 @@
+.login-input {
+    width: 100%;
+    margin: 5% 0%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-input > div {
+    width: 80%;
+    border: 2px solid #E5E9F4;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-input input {
+    width: 80%;
+    height: 25px;
+}
+
+.login-input input:focus {
+    outline: none;
+}
+
+.login-input input[type="text"],
+.login-input input[type="password"] {
+    border: none;
+}
+
+.login-input input[type="password"] {
+    border-top: 2px solid #E5E9F4;
+}
+
+.login-input input[type="submit"] {
+    background-color: #E5E9F4;
+    height: 40px;
+    margin: 5% 0%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

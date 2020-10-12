@@ -1,0 +1,19 @@
+.login-greeting {
+    padding: 5%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-greeting span {
+    color: gray;
+    font-weight: 300;
+}
+
+.login-greeting h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 5% 0%;
+}

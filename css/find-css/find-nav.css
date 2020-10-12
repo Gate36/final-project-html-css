@@ -1,0 +1,59 @@
+.find-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:  #E5E9F4;
+    padding: 7% 8%;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(180, 180, 180, 0.712);
+}
+
+.find-nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-nav__list a {
+    text-decoration-line: none;
+
+    color: #495057;
+    font-size: 19px;
+
+    position: relative;
+}
+
+.find-nav__notification {
+    background-color: tomato;
+    color: #E5E9F4;
+    font-size: 13px;
+    font-weight: 600;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.find-nav__dot {
+    background-color: tomato;
+    color: tomato;
+    font-size: 0px;
+
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}

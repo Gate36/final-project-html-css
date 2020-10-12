@@ -1,0 +1,31 @@
+.more-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(239, 242, 250, 0.992);
+}
+
+.more-icons__icon {
+    width: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.more-icons:first-child {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.more-icons__icon i {
+    color: #7c9cf5;
+    font-size: 30px;
+}
+
+.more-icons__icon span {
+    color: #495057;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
